@@ -1,0 +1,3 @@
+/cygdrive/c/Users/akbar/CLionProjects/RedBelt/SortBy/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/akbar/CLionProjects/RedBelt/SortBy/cmake-build-debug/CMakeFiles/SortBy.dir
+/cygdrive/c/Users/akbar/CLionProjects/RedBelt/SortBy/cmake-build-debug/CMakeFiles/edit_cache.dir
