@@ -48,10 +48,10 @@ RM = /cygdrive/c/Users/akbar/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/akbar/CLionProjects/RedBelt/MaxElementIf
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/akbar/CLionProjects/RedBelt/Test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/akbar/CLionProjects/RedBelt/MaxElementIf/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/akbar/CLionProjects/RedBelt/Test/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/akbar/CLionProjects/RedBelt/MaxElementIf/cmake-build-debug/CMakeFiles /cygdrive/c/Users/akbar/CLionProjects/RedBelt/MaxElementIf/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/akbar/CLionProjects/RedBelt/Test/cmake-build-debug/CMakeFiles /cygdrive/c/Users/akbar/CLionProjects/RedBelt/Test/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/akbar/CLionProjects/RedBelt/MaxElementIf/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/akbar/CLionProjects/RedBelt/Test/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named MaxElementIf
+# Target rules for targets named Test
 
 # Build rule for target.
-MaxElementIf: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 MaxElementIf
-.PHONY : MaxElementIf
+Test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Test
+.PHONY : Test
 
 # fast build rule for target.
-MaxElementIf/fast:
-	$(MAKE) -f CMakeFiles/MaxElementIf.dir/build.make CMakeFiles/MaxElementIf.dir/build
-.PHONY : MaxElementIf/fast
+Test/fast:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/build
+.PHONY : Test/fast
 
-max_element_if.o: max_element_if.cpp.o
+log.o: log.cpp.o
 
-.PHONY : max_element_if.o
+.PHONY : log.o
 
 # target to build an object file
-max_element_if.cpp.o:
-	$(MAKE) -f CMakeFiles/MaxElementIf.dir/build.make CMakeFiles/MaxElementIf.dir/max_element_if.cpp.o
-.PHONY : max_element_if.cpp.o
+log.cpp.o:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/log.cpp.o
+.PHONY : log.cpp.o
 
-max_element_if.i: max_element_if.cpp.i
+log.i: log.cpp.i
 
-.PHONY : max_element_if.i
+.PHONY : log.i
 
 # target to preprocess a source file
-max_element_if.cpp.i:
-	$(MAKE) -f CMakeFiles/MaxElementIf.dir/build.make CMakeFiles/MaxElementIf.dir/max_element_if.cpp.i
-.PHONY : max_element_if.cpp.i
+log.cpp.i:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/log.cpp.i
+.PHONY : log.cpp.i
 
-max_element_if.s: max_element_if.cpp.s
+log.s: log.cpp.s
 
-.PHONY : max_element_if.s
+.PHONY : log.s
 
 # target to generate assembly for a file
-max_element_if.cpp.s:
-	$(MAKE) -f CMakeFiles/MaxElementIf.dir/build.make CMakeFiles/MaxElementIf.dir/max_element_if.cpp.s
-.PHONY : max_element_if.cpp.s
+log.cpp.s:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/log.cpp.s
+.PHONY : log.cpp.s
 
 # Help Target
 help:
@@ -157,11 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... MaxElementIf"
+	@echo "... Test"
 	@echo "... edit_cache"
-	@echo "... max_element_if.o"
-	@echo "... max_element_if.i"
-	@echo "... max_element_if.s"
+	@echo "... log.o"
+	@echo "... log.i"
+	@echo "... log.s"
 .PHONY : help
 
 

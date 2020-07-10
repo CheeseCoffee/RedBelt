@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/akbar/CLionProjects/RedBelt/MaxElementIf/main.cpp">
+		<Unit filename="/cygdrive/c/Users/akbar/CLionProjects/RedBelt/MaxElementIf/max_element_if.cpp">
 			<Option target="MaxElementIf"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/akbar/CLionProjects/RedBelt/MaxElementIf/CMakeLists.txt">

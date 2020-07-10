@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MaxElementIf.dir/main.cpp.o"
+  "CMakeFiles/MaxElementIf.dir/max_element_if.cpp.o"
   "MaxElementIf.exe"
   "MaxElementIf.pdb"
   "libMaxElementIf.dll.a"

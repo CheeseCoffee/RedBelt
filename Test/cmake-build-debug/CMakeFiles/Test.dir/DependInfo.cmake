@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Users/akbar/CLionProjects/RedBelt/MaxElementIf/max_element_if.cpp" "/cygdrive/c/Users/akbar/CLionProjects/RedBelt/MaxElementIf/cmake-build-debug/CMakeFiles/MaxElementIf.dir/max_element_if.cpp.o"
+  "/cygdrive/c/Users/akbar/CLionProjects/RedBelt/Test/log.cpp" "/cygdrive/c/Users/akbar/CLionProjects/RedBelt/Test/cmake-build-debug/CMakeFiles/Test.dir/log.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
