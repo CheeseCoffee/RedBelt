@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SortBy.dir/sort_by.cpp.o"
+  "CMakeFiles/SortBy.dir/update_field.cpp.o"
   "SortBy.exe"
   "SortBy.pdb"
   "libSortBy.dll.a"

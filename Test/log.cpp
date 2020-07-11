@@ -79,7 +79,13 @@ void TestLog() {
   ASSERT_EQUAL(logs.str(), expected);
 }
 
+#define COMBINE1(X,Y) X##Y  // helper macro
+#define COMBINE(X,Y) COMBINE1(X,Y)
+#define val(val1,val2) int COMBINE(x,__LINE__)=1; cout<<COMBINE(x,__LINE__);
+
 int main() {
+    val(1,2)
+    val(1,2)
   TestRunner tr;
   RUN_TEST(tr, TestLog);
 }
