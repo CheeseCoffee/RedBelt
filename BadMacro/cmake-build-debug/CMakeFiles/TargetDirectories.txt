@@ -1,0 +1,3 @@
+/cygdrive/c/Users/akbar/CLionProjects/RedBelt/BadMacro/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/akbar/CLionProjects/RedBelt/BadMacro/cmake-build-debug/CMakeFiles/BadMacro.dir
+/cygdrive/c/Users/akbar/CLionProjects/RedBelt/BadMacro/cmake-build-debug/CMakeFiles/edit_cache.dir
