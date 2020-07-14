@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Table.dir/table.cpp.o  -o Table.exe -Wl,--out-implib,libTable.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

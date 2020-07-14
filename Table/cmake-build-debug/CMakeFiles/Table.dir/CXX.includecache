@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/akbar/CLionProjects/RedBelt/Table/table.cpp
+iostream
+-
+utility
+-
+vector
+-
+test_runner.h
+/cygdrive/c/Users/akbar/CLionProjects/RedBelt/Table/test_runner.h
+
+/cygdrive/c/Users/akbar/CLionProjects/RedBelt/Table/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+
