@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/DequeViaTwoVectors.dir/main.cpp.o  -o DequeViaTwoVectors.exe -Wl,--out-implib,libDequeViaTwoVectors.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
