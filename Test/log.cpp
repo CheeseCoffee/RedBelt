@@ -1,6 +1,7 @@
 #include "test_runner.h"
 #include <sstream>
 #include <string>
+#include <vector>
 using namespace std;
 
 class Logger {
@@ -84,8 +85,10 @@ void TestLog() {
 #define val(val1,val2) int COMBINE(x,__LINE__)=1; cout<<COMBINE(x,__LINE__);
 
 int main() {
-    val(1,2)
-    val(1,2)
-  TestRunner tr;
-  RUN_TEST(tr, TestLog);
+    //val(1,2)
+    //val(1,2)
+  //TestRunner tr;
+  //RUN_TEST(tr, TestLog);
+    vector<int> vec;
+    cout<<vec.size()+1;
 }
