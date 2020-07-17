@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/akbar/CLionProjects/RedBelt/Paginator/paginator.cpp
+test_runner.h
+/cygdrive/c/Users/akbar/CLionProjects/RedBelt/Paginator/test_runner.h
+numeric
+-
+iostream
+-
+vector
+-
+string
+-
+
+/cygdrive/c/Users/akbar/CLionProjects/RedBelt/Paginator/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+

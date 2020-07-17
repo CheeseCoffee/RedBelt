@@ -84,11 +84,17 @@ void TestLog() {
 #define COMBINE(X,Y) COMBINE1(X,Y)
 #define val(val1,val2) int COMBINE(x,__LINE__)=1; cout<<COMBINE(x,__LINE__);
 
+template<typename T>
+struct Widget{
+    Widget(value);
+};
+
 int main() {
+    pair p(5,true);
+
     //val(1,2)
     //val(1,2)
-  //TestRunner tr;
-  //RUN_TEST(tr, TestLog);
-    vector<int> vec;
-    cout<<vec.size()+1;
+    //TestRunner tr;
+    //RUN_TEST(tr, TestLog);
+
 }
