@@ -1,0 +1,4 @@
+/Users/akbar/CLionProjects/RedBelt/TestCmake/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/akbar/CLionProjects/RedBelt/TestCmake/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/akbar/CLionProjects/RedBelt/TestCmake/cmake-build-debug/CMakeFiles/TestCmake.dir
+/Users/akbar/CLionProjects/RedBelt/TestCmake/cmake-build-debug/CMakeFiles/mymath_library.dir

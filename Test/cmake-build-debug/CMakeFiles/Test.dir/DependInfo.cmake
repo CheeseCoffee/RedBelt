@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Users/akbar/CLionProjects/RedBelt/Test/log.cpp" "/cygdrive/c/Users/akbar/CLionProjects/RedBelt/Test/cmake-build-debug/CMakeFiles/Test.dir/log.cpp.o"
+  "/Users/akbar/CLionProjects/RedBelt/Test/log.cpp" "/Users/akbar/CLionProjects/RedBelt/Test/cmake-build-debug/CMakeFiles/Test.dir/log.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
