@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/akbar/CLionProjects/RedBelt/Expresses/main.cpp
+algorithm
+-
+cmath
+-
+iostream
+-
+map
+-
+string
+-
+set
+-
+
