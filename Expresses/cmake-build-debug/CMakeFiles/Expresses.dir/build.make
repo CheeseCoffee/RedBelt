@@ -76,27 +76,27 @@ include CMakeFiles/Expresses.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Expresses.dir/flags.make
 
-CMakeFiles/Expresses.dir/main.cpp.o: CMakeFiles/Expresses.dir/flags.make
-CMakeFiles/Expresses.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/akbar/CLionProjects/RedBelt/Expresses/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Expresses.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Expresses.dir/main.cpp.o -c /Users/akbar/CLionProjects/RedBelt/Expresses/main.cpp
+CMakeFiles/Expresses.dir/myebook.cpp.o: CMakeFiles/Expresses.dir/flags.make
+CMakeFiles/Expresses.dir/myebook.cpp.o: ../myebook.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/akbar/CLionProjects/RedBelt/Expresses/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Expresses.dir/myebook.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Expresses.dir/myebook.cpp.o -c /Users/akbar/CLionProjects/RedBelt/Expresses/myebook.cpp
 
-CMakeFiles/Expresses.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Expresses.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/akbar/CLionProjects/RedBelt/Expresses/main.cpp > CMakeFiles/Expresses.dir/main.cpp.i
+CMakeFiles/Expresses.dir/myebook.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Expresses.dir/myebook.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/akbar/CLionProjects/RedBelt/Expresses/myebook.cpp > CMakeFiles/Expresses.dir/myebook.cpp.i
 
-CMakeFiles/Expresses.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Expresses.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/akbar/CLionProjects/RedBelt/Expresses/main.cpp -o CMakeFiles/Expresses.dir/main.cpp.s
+CMakeFiles/Expresses.dir/myebook.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Expresses.dir/myebook.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/akbar/CLionProjects/RedBelt/Expresses/myebook.cpp -o CMakeFiles/Expresses.dir/myebook.cpp.s
 
 # Object files for target Expresses
 Expresses_OBJECTS = \
-"CMakeFiles/Expresses.dir/main.cpp.o"
+"CMakeFiles/Expresses.dir/myebook.cpp.o"
 
 # External object files for target Expresses
 Expresses_EXTERNAL_OBJECTS =
 
-Expresses: CMakeFiles/Expresses.dir/main.cpp.o
+Expresses: CMakeFiles/Expresses.dir/myebook.cpp.o
 Expresses: CMakeFiles/Expresses.dir/build.make
 Expresses: CMakeFiles/Expresses.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/akbar/CLionProjects/RedBelt/Expresses/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Expresses"

@@ -142,32 +142,32 @@ Expresses/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Expresses.dir/build.make CMakeFiles/Expresses.dir/build
 .PHONY : Expresses/fast
 
-main.o: main.cpp.o
+myebook.o: myebook.cpp.o
 
-.PHONY : main.o
+.PHONY : myebook.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Expresses.dir/build.make CMakeFiles/Expresses.dir/main.cpp.o
-.PHONY : main.cpp.o
+myebook.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Expresses.dir/build.make CMakeFiles/Expresses.dir/myebook.cpp.o
+.PHONY : myebook.cpp.o
 
-main.i: main.cpp.i
+myebook.i: myebook.cpp.i
 
-.PHONY : main.i
+.PHONY : myebook.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Expresses.dir/build.make CMakeFiles/Expresses.dir/main.cpp.i
-.PHONY : main.cpp.i
+myebook.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Expresses.dir/build.make CMakeFiles/Expresses.dir/myebook.cpp.i
+.PHONY : myebook.cpp.i
 
-main.s: main.cpp.s
+myebook.s: myebook.cpp.s
 
-.PHONY : main.s
+.PHONY : myebook.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Expresses.dir/build.make CMakeFiles/Expresses.dir/main.cpp.s
-.PHONY : main.cpp.s
+myebook.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Expresses.dir/build.make CMakeFiles/Expresses.dir/myebook.cpp.s
+.PHONY : myebook.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Expresses"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... myebook.o"
+	@echo "... myebook.i"
+	@echo "... myebook.s"
 .PHONY : help
 
 

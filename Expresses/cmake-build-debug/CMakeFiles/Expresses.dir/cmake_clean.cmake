@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Expresses.dir/main.cpp.o"
+  "CMakeFiles/Expresses.dir/myebook.cpp.o"
   "Expresses"
   "Expresses.pdb"
 )

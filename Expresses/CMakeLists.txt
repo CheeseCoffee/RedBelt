@@ -3,4 +3,4 @@ project(Expresses)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Expresses main.cpp)
+add_executable(Expresses myebook.cpp)

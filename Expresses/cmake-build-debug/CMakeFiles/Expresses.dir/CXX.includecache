@@ -6,17 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/akbar/CLionProjects/RedBelt/Expresses/main.cpp
-algorithm
--
-cmath
--
+/Users/akbar/CLionProjects/RedBelt/Expresses/myebook.cpp
 iostream
 -
-map
+iomanip
 -
-string
+vector
 -
 set
+-
+map
 -
 

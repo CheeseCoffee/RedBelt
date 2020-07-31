@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/akbar/CLionProjects/RedBelt/Expresses/main.cpp">
+		<Unit filename="/Users/akbar/CLionProjects/RedBelt/Expresses/myebook.cpp">
 			<Option target="Expresses"/>
 		</Unit>
 		<Unit filename="/Users/akbar/CLionProjects/RedBelt/Expresses/CMakeLists.txt">
